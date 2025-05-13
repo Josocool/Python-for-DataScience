@@ -7,7 +7,7 @@ def is_prime(n):
     return True
 
 
-print("Prime numbers from 1 to 100:")
-for num in range(1, 101):
+
+for num in range(2, 13):
     if is_prime(num):
-        print(num, end=' ')
+        print(f"{num} is prime number", end='\n')
